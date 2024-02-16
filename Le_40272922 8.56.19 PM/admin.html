@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My first website</title>
+    <title>Admin</title>
     <meta charset="UTF-8">
-    <meta name="author" content="Nguyen"> <!-- Removed extra spaces in the attribute names -->
+    <meta name="author" content="Nguyen"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="2s">
+    <meta http-equiv="refresh" content="2s"> <!---- 2 second refesh-->
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <div class="logo"> <!-- Added a missing closing tag for the <div> -->
-            <p>Nguyen</p>
-        </div>
+      
         <ul>
             <li><a href="Home.html">Home</a></li>
             <li><a href="Resume.html">Resume</a></li>
@@ -23,5 +21,15 @@
             <li><a href="Admin.html">Admin</a></li>
         </ul>
     </nav>
+<div class = "userin">
+    <form action="/submit-form" method="post"></form>
+   User Name: <input type="text" id = "User Name" required > 
+
+   
+    Password: <input type="text" id = "Password" required>
+
+    <input type="submit" value="Login">
+</form>
+</div>
 </body>
 </html>

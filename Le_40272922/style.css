@@ -3,38 +3,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: static;
+}
+.containt-container{
+ font-size: medium;
+ font-family: 'Times New Roman';
+ 
 }
 
+
 nav {
-    width: 100%;
+    width: 88%;
     height: 75px;
     line-height: 80px;
-    padding: 0 100px;
-    position: sticky;
+    padding: 0 90px;
+    position: static;
     background-image: linear-gradient(#808000, #708238);
 }
 
-nav .logo p {
-    font-size: 40px; /* Adjusted font size for better readability */
-    font-weight: bold;
-    float: left;
-    color: beige;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    margin-top: 5px;
-}
+
 
 nav ul {
     list-style: none;
-    float: right;
-    margin-right: 80px;
+    display: flex;
+    justify-content: space-between; /* Equal spacing between items */
+    align-items: center; /* Vertically center items */
+    padding: 0;
+    
+    width: 100%; 
 }
 
 nav ul li {
     display: inline-block;
-    margin-right: 40px;
-    text-align: center ;
+    text-align: center;
+    flex-grow: 1; /* Let each item grow to fill available space */
+ 
 }
+
 
 nav ul li a {
     text-decoration: none;
@@ -44,42 +49,40 @@ nav ul li a {
     text-align: center; 
    
 }
+
 [class]{
-     text-align: center;
-     max-width: 1200px;
-     font-weight: bold;
+     
+     max-width: 1500px;
      font-size: 20px ;
-     text-align: center;
+     text-align: left;
+     
+    
+}
+.lowbar {
+    box-sizing:border-box;
+    color: beige;
+    text-align: center;
+    border-bottom: #808000 solid 60px;
+    position: relative;
+    max-width: 1500px;
+    display: flex;
+ 
 }
 
 img {
     align-items: center;
     justify-content: center;
-    margin-right: 20;
-}
-[dd]{
-    font-weight: bold ;
-    font-size: 20px;
-}
-
-[dt]{
-    font-weight: bold;
-    font-size: 25px;
-}
-[p]{
-    margin-left: 20px;
-}
-
- .center{
-    text-align: center;
- }   
- .center ol {
-    display: inline-block;
-    text-align: left;
-    padding-left: 0;
+    
 }
 
 
+  /* JUSTIFY ALIGN FOR  PROJECTS */ 
+ .center { 
+   
+    text-align: justify;
+    
+}
+/*  Contacts  */
 
 .form {
     width: 50%;
@@ -90,6 +93,9 @@ img {
     margin-bottom: 10px;
     margin-left: 10px;
 }
+
+
+
 .form input[type="text"],
 .form textarea {
     width: 100%;
@@ -112,10 +118,21 @@ img {
     background-color:#808000;
 }
 
+.professional {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left
+    
 
+}
+img {
+    display: block;
+    margin: 0 auto; 
+}
 
-
-
+dl {
+    padding: 0;
+    margin: 0;
+}
 
 
 

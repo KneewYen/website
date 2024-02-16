@@ -1,0 +1,142 @@
+/* STYLING SHEET USE CSS */
+*body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: static;
+}
+
+.containt-container{
+ font-size: medium;
+ font-family: 'Times New Roman';
+ 
+}
+
+/* Navigation bar styling */
+nav {
+    width: 88%;
+    height: 75px;
+    line-height: 80px;
+    padding: 0 90px;
+    position: static;
+    background-image: linear-gradient(#808000, #708238);
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Equal spacing between items */
+    align-items: center; /* Vertically center items */
+    padding: 0;
+    
+    width: 100%; 
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    flex-grow: 1; /* Let each item grow to fill available space */
+ 
+}
+
+
+nav ul li a {
+    
+    color: beige;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center; 
+   
+}
+/* All the class using div are theses characteristics */
+[class]{
+     
+     max-width: 1500px;
+     font-size: 20px ;
+     text-align: left;
+     
+    
+}
+.lowbar {
+    box-sizing:border-box;
+    color: beige;
+    text-align: center;
+    border-bottom: #808000 solid 60px;
+    position: relative;
+    max-width: 1500px;
+    display: flex;
+ 
+}
+
+img {
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+  /* JUSTIFY ALIGN FOR  PROJECTS */ 
+ .center { 
+   
+    text-align: justify;
+    
+}
+
+
+.form {
+    width: 50%;
+    margin: 0 auto;
+}
+.label {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+/*  Contacts  */
+
+.form input[type="text"],
+.form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.form textarea {
+    resize: vertical;
+}
+.form input[type="submit"] {
+    background-color:#808000 ;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form input[type="submit"]:hover {
+    background-color:#808000;
+}
+
+.professional {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left
+    
+
+}
+
+img {
+    display: block;
+    margin: 0 auto; 
+}
+
+dl {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+

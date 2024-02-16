@@ -11,9 +11,7 @@
 </head>
 <body>
     <nav>
-        <div class="logo"> <!-- Added a missing closing tag for the <div> -->
-            <p>Nguyen</p>
-        </div>
+       
         <ul>
             <li><a href="Home.html">Home</a></li>
             <li><a href="Resume.html">Resume</a></li>
@@ -23,20 +21,20 @@
             <li><a href="Admin.html">Admin</a></li>
         </ul>
     </nav>
-
+<!--input information-->
     <div class = "form ">
         <form action="#" method="post">
         <label for = "name"> Name: </label>
+        
         <input type = "text" id="name" placeholder="Enter your name" required>
 
-        <label for = "email"> email: </label>
+        <label for = "email"> Email: </label>
         <input type = "text" id="email" placeholder="Enter your email" required>
 
         <label for = "phone"> Phone: </label>
         <input type = "text" id="phone" placeholder="Enter your phone" required>
 
         <label for = "message"> Message: </label>
-        <input type = "text" id="message" placeholder="Message me" required>
         <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
         <input type="submit" value="Submit">
     </form>
